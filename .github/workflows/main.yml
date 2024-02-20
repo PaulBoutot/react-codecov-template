@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Upload coverage reports to Codecov
     steps:
+    - uses: actions/checkout@master
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4.0.1
       with:
