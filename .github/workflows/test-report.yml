@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run tests
-      run: npm run test -- --ci --testResultsProcessor="jest-junit"
+      run: npm run test:ci
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()    # run this step even if previous step failed
