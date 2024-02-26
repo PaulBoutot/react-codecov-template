@@ -16,4 +16,14 @@ const add = (x,y) => {
     return x + y;
 }
 
-export { helloWorld, add };
+/**
+ * Subtracts two numbers
+ * @param {number} x 
+ * @param {number} y 
+ * @returns 
+ */
+const subtract = (x,y) => {
+    return y-x;
+}
+
+export { helloWorld, add, subtract };
