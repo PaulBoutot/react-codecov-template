@@ -1,3 +1,15 @@
+# Requirements
+
+This project has two GitHub actions workflows:
+
+* codecov.yml
+* testReport.yml
+
+## Steps
+
+1. Save `CODECOV_TOKEN` as a repository secret (or organization secret).
+2. Run `yarn add --dev jest-junit` to install jest-junit as a test-reporter.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
